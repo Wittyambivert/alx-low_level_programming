@@ -15,10 +15,9 @@ int main(void)
 	while (i <= 7)
 	{
 		putchar(word[i]);
-		putchar('\n');
 		i++;
 	}
-
+	putchar("\n");
 
 
 	return (0);
