@@ -25,9 +25,3 @@ int _islower(int c)
 	}
 }
 
-int main(c)
-{
-	_islower('H');
-
-	return (0);
-}
