@@ -3,23 +3,23 @@
 #include "main.h"
 
 /**
- * main - added main
+ * main - Entry code
  *
- * _isalpha - functio to check alpha
+ * _isalpha - function to check alpha
  *
  * @c: placeholder for betty
- * 
- * Return 0 as usual
+ *
+ * Return: 0
  *
  */
 
 int _isalpha(int c)
 {
-	if(isalpha(c))
+	if (isalpha(c))
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
