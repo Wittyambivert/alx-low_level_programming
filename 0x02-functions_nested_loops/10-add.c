@@ -3,7 +3,7 @@
 
 /**
  * add - function to add two integer
- * @n: - for betty 
+ * @n: - for betty
  * @m: - for betty
  */
 
