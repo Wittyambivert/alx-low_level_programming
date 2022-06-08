@@ -11,7 +11,7 @@
 
 int _abs(int c)
 {
-	printf("%d", abs(c));
+	putchar(abs(c));
 
 	return (0);
 }
