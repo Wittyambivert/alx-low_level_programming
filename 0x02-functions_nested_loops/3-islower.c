@@ -2,9 +2,12 @@
 #include <ctype.h>
 
 /**
- * main - check the code.
  * _islower - to check if a character is capital or lowercase
- * c - for deck.
+ *
+ * @c:  for deck.
+ *
+ * main - checks main
+ *
  * Return: Always 0.
  */
 
