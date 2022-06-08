@@ -23,5 +23,7 @@ int _islower(int c)
 	{
 		printf("%d\n", 0);
 	}
+
+	return (0);
 }
 
