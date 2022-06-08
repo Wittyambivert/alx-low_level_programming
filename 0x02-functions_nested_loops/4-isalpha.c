@@ -3,8 +3,6 @@
 #include "main.h"
 
 /**
- * main - Entry code
- *
  * _isalpha - function to check alpha
  *
  * @c: placeholder for betty
