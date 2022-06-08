@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
 
 /**
  * _islower - to check if a character is capital or lowercase
@@ -24,7 +25,7 @@ int _islower(int c)
 	}
 }
 
-int main(void)
+int main(c)
 {
 	_islower('H');
 
