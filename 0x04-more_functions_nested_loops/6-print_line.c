@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints a line on the terminal using only putchar
+ * @n: - for betty
  * Return: 0
  */
 
