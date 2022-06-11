@@ -9,7 +9,6 @@
 void print_square(int size)
 {
 	char i;
-	int size;
 	int sizeCount;
 
 	if (size <= 0)
