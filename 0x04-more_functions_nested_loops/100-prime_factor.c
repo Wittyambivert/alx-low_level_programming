@@ -1,26 +1,25 @@
 #include <stdio.h>
 
+
 /**
- * main - program that prints out the highest prime
- *
- * Return: Always (0)
- */
+* main - entry block
+* @void: for betty
+* Return: 0
+*/
+
 
 int main(void)
 {
-	int n, i, d;
+	long i, number = 612852475143;
 
-	d = 50829601;
-	n = 150;
-
-	for (i = 3; i <= n; i = i + 2)
+	for (i  = 2; i <= number; i++)
 	{
-		while (n % i == 0)
+		if (number % i == 0)
 		{
-			n = n / i;
+			number = number / i;
+			i--;
 		}
 	}
-	printf("%d", d);
-	printf("\n");
+	printf("%lu\n", i);
 	return (0);
 }
