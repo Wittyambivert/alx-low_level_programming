@@ -17,11 +17,11 @@ int *array_range(int min, int max)
 	int *pointer;
 
 	if (min > max)
-		rmalloc(sizeof(int) * limit2);
-
-	if (pointer == NULeturn (NULL);
+		return (NULL);
 	limit2 = max - min + 1;
-	pointer = L)
+	pointer = malloc(sizeof(int) * limit2);
+
+	if (pointer == NULL)
 		return (NULL);
 	for (limit1 = 0; limit1 < limit2; limit1++, min++)
 	{
