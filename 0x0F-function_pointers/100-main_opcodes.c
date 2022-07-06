@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
-ents.
- * @argc: argument count.
- * @argv: argument * main - check the code for Holberton School stud vector.
+ * main - prints the opcodes of its own main function.
+ * @argc: arguments counter
+ * @argv: arguments values
  *
- * Return: Always 0.
+ * Return: result
  */
 int main(int argc, char *argv[])
 {
-	char *opc = (char *) main;
-	int i, nbytes;
+	int n;
+	char *ptr = (char *)main;
+	int a;
 
 	if (argc != 2)
 	{
@@ -19,21 +19,20 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	nbytes = atoi(argv[1]);
+	n = atoi(argv[1]);
 
-	if (nbytes < 0)
+	if (n < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-
-	for (i = 0; i < nbytes; i++)
+	for (a = 0; a < n - 1; a++)
 	{
-		printf("%02x", opc[i] & 0xFF);
-		if (i != nbytes - 1)
-			printf(" ");
+		printf("%02hhx ", ptr[a]);
 	}
 
-	printf("\n");
+	printf("%02hhx\n", ptr[a]);
 	return (0);
+
+
 }
