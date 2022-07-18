@@ -1,1 +1,1 @@
-readme for more singly linked lists
+readme for more singly linked lists ready.
